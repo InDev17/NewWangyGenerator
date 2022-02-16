@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html lang="en">
@@ -8,6 +9,19 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
+  <div class="min-h-screen bg-gradient-to-bl from-sky-600 to-emerald-600 grid place-items-center">
+    <div class="w-72 h-auto px-2 py-3 backdrop-blur backdrop-brightness-105 rounded shadow-md shadow-cyan-800 space-y-2">
+      <h1 class="text-4xl text-slate-100 font-bold">Wangy Generator</h1>
+      <input placeholder="Masukkan nama waifu kalian disini..." class="w-full bg-transparent placeholder:text-slate-100/70 placeholder:text-italic border-2 border-cyan-400 rounded px-2 py-1" id="inputNama">
+      <div class="aspect-square w-full border-2 border-cyan-400 rounded p-2">
+        <p id="hasilText" class="text-slate-100 texy-sm">Ini hasilnya...</p>
+      </div>
+      <div class="flex w-full h-auto space-x-2">
+        <button id="tombolCopy" class="w-1/2 border-2 border-cyan-400 px-2 py-1 text-center rounded text-slate-100">Ini tombol copy</button>
+        <button id="tombolTema" class="w-1/2 border-2 border-cyan-400 px-2 py-1 text-center rounded text-slate-100">Ini tombol tema</button>
+      </div>
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>
