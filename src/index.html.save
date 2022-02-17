@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Wangy Generator</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="min-h-screen bg-slate-100 grid place-items-center">
+    <div class="w-72 h-auto px-2 py-3 bg-slate-400 rounded shadow-md shadow-slate-700 space-y-2">
+      <h1 class="text-4xl text-slate-100 font-bold">Wangy Generator</h1>
+      <input placeholder="Masukkan nama waifu kalian disini..." class="w-full bg-transparent placeholder:text-slate-100/70 placeholder:text-italic border-2 border-slate-700 rounded px-2 py-1" id="inputNama">
+      <div class="aspect-square w-full border-2 border-red-500 rounded p-2 shadow-md shadow-slate-700">
+        <p id="hasilText" class="text-slate-100 texy-sm">Ini hasilnya...</p>
+      </div>
+      <button id="tombolCopy" class="w-full bg-emerald-600 px-2 py-1 text-center rounded shadow-md shadow-emerald-900">Ini tombol copy</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
